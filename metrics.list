@@ -1,0 +1,19 @@
+kernel.all.cpu.sys
+kernel.all.cpu.user
+kernel.all.load["1 minute"]
+network.interface.in.bytes["eth0"]
+network.interface.out.bytes["eth0"]
+network.interface.in.packets["eth0"]
+network.interface.out.packets["eth0"]
+network.tcp.outsegs
+network.tcp.retranssegs
+network.tcp.currestab
+mem.util.free
+mem.util.bufmem
+mem.util.used
+kernel.all.pswitch
+mem.vmstat.pgfault
+disk.dev.read["sda"]
+disk.dev.write["sda"]
+disk.dev.read_bytes["sda"]
+disk.dev.write_bytes["sda"]
