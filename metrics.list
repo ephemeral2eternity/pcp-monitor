@@ -17,3 +17,4 @@ disk.dev.read["sda"]
 disk.dev.write["sda"]
 disk.dev.read_bytes["sda"]
 disk.dev.write_bytes["sda"]
+disk.dev.avactive

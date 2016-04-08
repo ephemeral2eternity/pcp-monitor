@@ -21,6 +21,8 @@ done
 
 trap echo 0
 
+echo "ip, id, RTT, timestamp"
+
 ping $* | while read line; do
 
 	# Skip header
