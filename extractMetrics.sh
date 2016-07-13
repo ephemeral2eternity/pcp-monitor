@@ -14,8 +14,10 @@ then
         endTime=$2
 fi
 
-curDate=$(date +%Y%m%d)
-archiveFile="$archiveFolder$curDate.00.10"
+# curDate=$(date +%Y%m%d)
+curDate="20160627"
+archiveFile="$archiveFolder$curDate.0"
+# archiveFile="$archiveFolder$curDate.00.10.0"
 fileName=$(echo "./data/$curDate-$startTime-$endTime.csv" | tr -d :)
 
 echo "Dump metrics defined in metrics.list from $startTime to $endTime from $archiveFile to $fileName!!!"
